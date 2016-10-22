@@ -199,17 +199,31 @@
 
 /*    Hero    */
 
-.hero{
+/*.hero{
 	width: 100%;
 	height: 750px;
 	background: url('../img/banner-home.png') repeat-x;
 	/*-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	   background-size: cover; */
+	   background-size: cover; 
 	   background-size:contain;
 background-position:center;
 background-color: #444;
+}*/
+
+.hero{
+	width: 100%;
+	height: 700px;
+	background: url('https://images.unsplash.com/photo-1473445730015-841f29a9490b?dpr=2&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb') repeat-x;
+	/*-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	   background-size: cover; */
+	background-size: cover;
+	background-position:center;
+	background-color: #444;
+	/*background-attachment: fixed; */
 }
 
 .hero .caption{
@@ -297,11 +311,14 @@ header .logo{
 header nav{
 	margin-top: 60px;
 }
-
+header .top-bar-section ul{
+	padding: 0 10px 10px 10px;
+	border-bottom:1px solid #fff;
+}
 header .top-bar-section ul li a{
-	color: #4D2513;
+	color: #fff;
 	font-family: "raleway-regular", Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 	text-transform: uppercase;
 	margin-right: 30px;
 	letter-spacing: .5px;
@@ -321,7 +338,7 @@ header .top-bar-section li:not(.has-form) a:not(.button){
 }
 
 header .top-bar-section li:not(.has-form) a:not(.button):hover{
-	color: #FFAB00;
+	color: #4D2513;
 }
 
 
@@ -485,12 +502,13 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	display: table;
 	width: 100%;
 	height: 450px;
-	background: url('../img/quote_bg.jpg') no-repeat 50% 50%;
+	background: url('../img/banner-boxes.jpeg') no-repeat 50% 50%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	   background-size: cover; 
 	text-align: center;
+	background-attachment: fixed;
 }
 
 .quote blockquote{
@@ -499,7 +517,7 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 }
 
 .quote blockquote p{
-	color: #4c4b4b;
+	color: #fff;
 	font-family: "raleway-light", Helvetica, Arial, sans-serif;
 	font-size: 34px;
 	font-weight: lighter;
@@ -532,7 +550,9 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 	margin: 20px 0 0 0;
 }
 
-
+.tblbranches td{
+	padding:0;
+}
 
 
 
@@ -667,7 +687,12 @@ header .top-bar-section li:not(.has-form) a:not(.button):hover{
 
 
 
-
+.branches_list div{
+	width:33%;
+	text-align: left;
+	float: left;
+	margin-bottom: 20px;
+}
 
 
 
